@@ -1,0 +1,11 @@
+#include <iostream>
+#include <time.h>
+using namespace std;
+
+int main()
+{
+char tab[]="wiosna";
+    int a = 0;
+    while (tab[a++] != '\0');
+    cout <<  a-1;
+}
